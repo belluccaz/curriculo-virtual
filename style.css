@@ -1,0 +1,35 @@
+* {
+    font-family: "Poppins", "sans-serif";
+    background-color: #faf9f6;
+    flex-direction: column;
+    flex-basis: 10px;
+}
+
+.observation {
+    font-size: 0.8rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 10px;
+}
+
+.cv {
+    color: midnightblue
+}
+
+.container{
+    font-size: 20px;
+}
+
+.profile-pic {
+    max-height: 400px;
+    max-width: 400px;
+}
+
+footer {
+    text-align: right;
+    clear: both;
+    font-size: 1rem;
+}
