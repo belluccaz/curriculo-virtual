@@ -1,6 +1,6 @@
 * {
+    background-color: #cdc9c9;
     font-family: "Poppins", "sans-serif";
-    background-color: #faf9f6;
     flex-direction: column;
     flex-basis: 10px;
 }
@@ -12,24 +12,69 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 10px 10px 10px 10px;
+    align-items: center;
 }
 
 .cv {
-    color: midnightblue
+    color: midnightblue;
 }
 
-.container{
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     font-size: 20px;
+    gap: 0px;
+    padding: 0;
+    margin: 0px 0px 0px 0px;
 }
 
 .profile-pic {
+    min-width: none;
+    min-height: none;
     max-height: 400px;
     max-width: 400px;
 }
 
-footer {
+footer{
+    text-align: center;
+    clear: both;
+    font-size: 1rem;
+}
+
+.footer {
     text-align: right;
     clear: both;
     font-size: 1rem;
 }
+
+.header {
+    background-color: #3f3f3f;
+    font-size: 2rem;
+    max-width: 400px;
+    max-height: 600px;
+}
+
+div > h2 {
+    background-color: #3f3f3f;
+}
+
+.header-1 {
+    font-size: rem;
+}
+
+.header-2 {
+    font-size: 25px;
+}
+
+.sumario-1{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.ending {
+    max-width: none;
+    max-height: none;
+    align-items: center;
+}
+
