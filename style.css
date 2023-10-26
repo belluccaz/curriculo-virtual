@@ -30,15 +30,11 @@ h2 {
     grid-template-rows: 1fr;
     font-size: 20px;
     gap: 0px;
-    margin: 0px 0px 0px 0px;
-    max-height: fit-content;
-    max-width: fit-content;
+    margin: 0px 0px 0px 0px;;
     align-items: center;
 }
 
 .profile-pic {
-    min-width: fit-content;
-    min-height: fit-content;
     max-width: 400px;
     max-height: 400px;
 }
@@ -67,13 +63,11 @@ div > h2 {
 
 .header-1 {
     background-color:#848484;
-    min-width: fit-content;
     padding: 0px;
 }
 
 .sumario-1{
     font-size: 1.5rem;
-    min-width: none;
     background-color: #848484;
     max-width: fit-content;
 }
@@ -83,8 +77,6 @@ div > h2 {
     padding: 0px;
     background-color: #848484;
     font-size: 1.3rem;
-    max-width: fit-content;
-    max-height: fit-content;
     align-items: center;
 }
 
