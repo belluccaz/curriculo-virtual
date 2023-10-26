@@ -2,7 +2,6 @@
     background-color: #cdc9c9;
     font-family: "Poppins", "sans-serif";
     flex-direction: column;
-    flex-basis: 10px;
 }
 
 .observation {
@@ -10,13 +9,19 @@
 }
 
 body {
-    display: flex;
+    max-width: 810px;
+    max-height: 800px;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .cv {
+    background-color: #848484;
     color: midnightblue;
+}
+
+h2 {
+    font-size: 1.5rem;
 }
 
 .container {
@@ -25,15 +30,17 @@ body {
     grid-template-rows: 1fr;
     font-size: 20px;
     gap: 0px;
-    padding: 0;
     margin: 0px 0px 0px 0px;
+    max-height: fit-content;
+    max-width: fit-content;
+    align-items: center;
 }
 
 .profile-pic {
-    min-width: none;
-    min-height: none;
-    max-height: 400px;
+    min-width: fit-content;
+    min-height: fit-content;
     max-width: 400px;
+    max-height: 400px;
 }
 
 footer{
@@ -42,39 +49,72 @@ footer{
     font-size: 1rem;
 }
 
-.footer {
-    text-align: right;
-    clear: both;
-    font-size: 1rem;
-}
-
 .header {
-    background-color: #3f3f3f;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    background-color: #848484;
     font-size: 2rem;
-    max-width: 400px;
-    max-height: 600px;
-}
-
-div > h2 {
-    background-color: #3f3f3f;
-}
-
-.header-1 {
-    font-size: rem;
-}
-
-.header-2 {
-    font-size: 25px;
-}
-
-.sumario-1{
-    max-width: 400px;
-    max-height: 600px;
-}
-
-.ending {
-    max-width: none;
-    max-height: none;
     align-items: center;
 }
 
+div > h2 {
+    max-height: fit-content;
+    max-width: fit-content;
+    background-color: #848484;
+    margin: 0;
+    padding: 0;
+}
+
+.header-1 {
+    background-color:#848484;
+    min-width: fit-content;
+    padding: 0px;
+}
+
+.sumario-1{
+    font-size: 1.5rem;
+    min-width: none;
+    background-color: #848484;
+    max-width: fit-content;
+}
+
+.ending {
+    margin-top: 0px;
+    padding: 0px;
+    background-color: #848484;
+    font-size: 1.3rem;
+    max-width: fit-content;
+    max-height: fit-content;
+    align-items: center;
+}
+
+.exp {
+    background-color: #848484;
+    color: midnightblue;
+}
+
+.name {
+    background-color: #848484;
+    color: midnightblue;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+.data {
+    font-size: 0.9rem;
+}
+
+.habilidades {
+    background-color: #3f3f3f;
+    font-size: 1.25rem;
+}
+
+.eu {
+    color: midnightblue;
+}
+
+.passatempos {
+    font-size: 1.25rem;
+}
