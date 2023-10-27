@@ -27,8 +27,8 @@ h2 {
     grid-template-columns: 400px 100%;
     grid-template-rows: auto;
     font-size: 20px;
-    gap: 0px;
-    margin: 0px 0px 0px 0px;
+    gap: 10px;
+    margin: 10px 10px 10px 10px ;
 }
 
 .profile-pic {
@@ -43,7 +43,6 @@ footer{
 }
 
 .header {
-    margin: 0px 0px 0px 0px;
     display: flex;
     background-color: #848484;
     font-size: 2rem;
@@ -54,7 +53,7 @@ div > h2 {
     max-height: fit-content;
     max-width: fit-content;
     background-color: #848484;
-    margin: 0;
+    margin: 10px 10px 10px 10px;
     padding: 0;
 }
 
@@ -67,8 +66,8 @@ div > h2 {
     font-size: 1.5rem;
     background-color: #848484;
     max-width: fit-content;
-    margin: 0;
-    padding: 0;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
 }
 
 ul {
@@ -122,10 +121,15 @@ p {
 }
 
 @media (min-width: 319px) and (max-width: 480px) {
+    body {
+        align-items: center;
+    }
     .container {
         display: flex;
         justify-content: center;
         align-items: center;
         height: auto;
+        font-size: 20px;
+        margin: 10px 10px 10px 10px;
     }
 }
