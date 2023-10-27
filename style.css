@@ -1,5 +1,6 @@
 * {
     flex-direction: column;
+    flex-basis: auto;
     background-color: #cdc9c9;
     font-family: "Poppins", "sans-serif";
 }
@@ -23,8 +24,8 @@ h2 {
 
 .container {
     display: grid;
-    grid-template-columns: 400px auto;
-    grid-template-rows: 500px auto;
+    grid-template-columns: 400px 100%;
+    grid-template-rows: auto;
     font-size: 20px;
     gap: 0px;
     margin: 0px 0px 0px 0px;
@@ -66,11 +67,14 @@ div > h2 {
     font-size: 1.5rem;
     background-color: #848484;
     max-width: fit-content;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
     background-color: #848484;
     list-style: none;
+    max-width: fit-content;
 }
 
 .ending {
@@ -115,4 +119,13 @@ p {
 .circle {
     list-style: circle;
     font-size: 1.25rem;
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
 }
